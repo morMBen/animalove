@@ -1,0 +1,20 @@
+.nav {
+  height: 15vh;
+  /* background: lightblue; */
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 10px solid rgb(245, 66, 96);
+}
+.nav img {
+  height: 10vh;
+}
+.nav_counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav_counter-container h1 {
+  margin: 0 1rem;
+}
