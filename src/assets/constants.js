@@ -16,7 +16,7 @@ export const images = [
     name: 'King Julien XIII',
   },
   {
-    url: 'https://idsb.tmgrup.com.tr/ly/uploads/images/2021/06/03/119316.jpg',
+    url: 'https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGUlMjBsaW9ufGVufDB8fDB8fA%3D%3D&w=1000&q=80',
     name: 'Mufasa',
   },
   {

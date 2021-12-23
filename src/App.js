@@ -37,11 +37,18 @@ class App extends React.Component {
   render() {
     console.log(this.state.likes);
     console.log(this.state.disLike);
+    const { disLike, like } = this.state;
+    const lik = 'Go open a zoo';
+    const dis =
+      'Go give a hug to a friend, because you probably will not have a pet.';
+    const brr = 'Bring yourself a dog or cat :)';
     return (
       <div className='App'>
         <Nav dislikes={this.state.disLike} likes={this.state.likes} />
         {!this.state.isEnd && <Card currentItem={this.state.currentItem} />}
-        {this.state.isEnd && <h1>Game Over</h1>}
+        {this.state.isEnd && (
+          <h1>{disLike === like ? brr : disLike > like ? dis : lik}</h1>
+        )}
         <NavButtom
           like={this.setLike}
           dislike={this.setDislike}
