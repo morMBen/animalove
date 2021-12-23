@@ -34,7 +34,7 @@ export const images = [
 ];
 export const icons = {
   v: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShom1QPt-VPQChHuvOQIKgiO8OWH8L0OypFQ&usqp=CAU',
-  x: 'https://e7.pngegg.com/pngimages/838/297/png-clipart-computer-icons-check-mark-cross-x-miscellaneous-trademark.png',
+  x: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8TLDw7XXWL4T1j5xjpIGcyQ-AfyLSZXWDwQ&usqp=CAU',
   smile:
     'https://i.pinimg.com/originals/1a/ef/a0/1aefa0313f09ce71f73d62d7f6e1c561.jpg',
   sad: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxXAp9J0t-24hWoAE2syLrYSszIrydJSP5A&usqp=CAU',
